@@ -145,6 +145,7 @@ nav{
     width: 325px;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     padding:10px 0px 10px 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     transform: scale();
