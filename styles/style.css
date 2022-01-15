@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 /* common class */
 .container{
@@ -54,7 +55,9 @@ nav{
     font-weight: 500;
     font-size: 16px;
 }
-/* banner start  */
+/* =========================================
+                banner area start 
+    ========================================= */
 .banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -92,7 +95,11 @@ nav{
     
 }
 /* =========================================
-                logo area  
+                banner  area end 
+    ========================================= */
+
+/* =========================================
+                logo area  start
     ========================================= */
 .logo-area{ 
     display: flex;
@@ -101,4 +108,71 @@ nav{
     border-top: 1px solid rgba(179, 177, 177, 0.6);
     border-bottom: 1px solid rgba(179, 177, 177, 0.6);
     padding:20px 0;
+}
+/* =========================================
+                logo area  end
+    ========================================= */
+/* =========================================
+                products area  start
+    ========================================= */
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.Popular-title{
+    color: #3A3A3A;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.porduct{
+    
+    padding:10px 0px 10px 10px;
+    margin-left:20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    
+}
+
+.product-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.product-price{
+    font-size: 22px;
+    font-weight: 400;
+}
+.rating .full-filed{
+    color:#FB8200;
+    font-size:16px
+}
+.rating .half-filed{
+    color: #FB8200;
+    font-size:16px;
+}
+.rating-mark{
+    font-size: 15px;
+    margin-left:5px;
+    font-weight: bold;
+}
+.product-text{
+    display: flex;
+    
+}
+.product-btn{
+    margin-top:40px;
+    display: flex;
+    justify-content: end;
+}
+.product-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #E02C6D;
+    margin-right: 5px;
+}
+.product-btn a i{
+    margin-left: 10px;
 }
